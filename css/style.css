@@ -21,44 +21,150 @@ h2 {
 }
 
 /*для разметки*/
-body {
-    min-width: 1440px;
-    min-height: 2476px;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-size: 1440px auto;
-}
-
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
 
 .main-header {
-    min-width: 1200px;
+    min-width: 1160px;
     padding-top: 30px;
+    margin-bottom:116px;
 }
 
 .container {
-    width: 1200px;
-    padding: 0 10px;
-    min-height: 85px;
+    width: 1160px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 .main-nav {
-    width:880px;
-    min-height: 85px;
-    float:left;
+    width: 980px;
+    float: left;
 }
 
 .basket-enter {
-    width:300px;
-    min-height: 85px;
+    width: 160px;
+    min-height: 65px;
+    float: right;
+}
+
+.feature-box {
+    width: 1100px;
+    margin-bottom: 80px;
+}
+
+.feature {
+    float:left;
+    margin-right: 100px;
+    width: 300px;
+    min-height: 347px;
+}
+
+.feature:last-child {
+  margin-right: 0;
+}
+
+.content-box {
+    width:1160px;
+}
+
+.left-content {
+    float:left;
+    width:680px;
+    padding-right:100px;
+}
+
+.right-content {
     float:right;
+    width:380px;
+    margin-right: 0;
+}
+
+.our-sites {
+    margin-top:140px;
+    margin-bottom: 120px;
+}
+
+.copyright {
+  width: 260px;
+  min-height: 180px;
+  margin-right: 40px;
+  float: left;
+}
+.copyright:last-child {
+  float: right;
+  margin-right: 0;
+}
+.welcome-container {
+    width: 1160px;
+    min-height: 165px;
+}
+
+.main-title {
+    text-align: center;
+    width: 1160px;
+    min-height: 165px;
+}
+
+.main-container {
+    width: 1160px;
+    padding: 0 10px;
+    min-height: 85px;
+    margin: 0 auto;
+    padding-top: 56px;
+    margin-bottom: 60px;
+}
+
+.left-column{
+    box-sizing: border-box;
+    width: 260px;
+    min-height: 780px;
+    margin: 56px 140px 0 0;
+    float: left;
+}
+
+.sample-list {
+    width: 760px;
+    float: right;
+}
+
+.gallery {
+    width: 760px;
+}
+
+.gallery-item {
+  width: 360px;
+  min-height: 618px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 37px;
+}
+
+.gallery-item:nth-child(2n) {
+  float: right;
+  margin-right: 0;
+}
+
+.paginator {
+    width: 480px;
+    min-height: 50px;
+    float: left;
+    margin-top: 60px;
+}
+
+.mail-us {
+    width: 320px;
+    min-height: 310px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    float: left;
+}
+
+.social-footer {
+    width: 300px;
+    min-height: 216px;
+    float: left;
+    margin-right: 60px;
 }
