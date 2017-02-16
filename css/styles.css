@@ -303,7 +303,6 @@ footer img{
 
 .slider-controls label {
 	display: inline-block;
-    vertical-align:middle;
 	width: 10px;
 	height: 10px;
 	margin-right: 13px;
@@ -383,6 +382,7 @@ footer img{
 	color: rgba(255, 255, 255, 0.3);
 	
 	background-color: #d7373b;
+    box-shadow: 0 0 5px black;
 }
 
 .slide:nth-child(1) {
@@ -483,6 +483,7 @@ footer img{
 	text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
+    border-radius: 3px;
 }
 
 .feature-item:first-child .btn {
@@ -491,6 +492,7 @@ footer img{
 
 .feature-item:first-child .btn:hover {
 	background-color: #e74246;
+    box-shadow: 0 0 10px black;
 }
 
 .feature-item:first-child .btn:active {
@@ -503,6 +505,7 @@ footer img{
 
 .feature-item:nth-child(2) .btn:hover {
 	background-color: #00bc6c;
+    box-shadow: 0 0 10px black;
 }
 
 .feature-item:nth-child(2) .btn:active {
@@ -515,10 +518,12 @@ footer img{
 
 .feature-item:last-child .btn:hover {
 	background-color: #eab534;
+    box-shadow: 0 0 10px black;
 }
 
 .feature-item:last-child .btn:active {
 	background-color: #e5a722;
+    
 }
 
 .feature-item .btn:active {
@@ -694,7 +699,6 @@ footer img{
 
 .clients .pic {
 	display: inline-block;
-    vertical-align: baseline;
 	width: 300px;
 	margin: 0;
 	box-sizing: border-box;
@@ -846,7 +850,6 @@ footer img{
 
 .social-btn {
 	display: inline-block;
-    vertical-align: baseline;
 	width: 78px;
 	height: 78px;
 	margin-right: 9px;
@@ -1224,7 +1227,6 @@ input[type="checkbox"]:disabled + label::before {
 
 .catalog-top .sort-mark {
 	display: inline-block;
-    vertical-align: baseline;
 	margin-right: 25px;
 	vertical-align: middle;
 	
@@ -1253,7 +1255,6 @@ input[type="checkbox"]:disabled + label::before {
 
 .catalog-top .sort-btn {
 	display: inline-block;
-    vertical-align: baseline;
 	width: 0;
 	height: 0;
 	margin-right: 20px;
@@ -1353,8 +1354,7 @@ input[type="checkbox"]:disabled + label::before {
 	width: 360px;
 	height: 576px;
 	box-sizing: border-box;
-	
-	border: 1px solid #e5e5e5;
+
 }
 
 .item-description {
@@ -1421,6 +1421,7 @@ input[type="checkbox"]:disabled + label::before {
 	text-decoration: none;
 	
 	background-color: #fb565a;
+    border-radius: 3px;
 }
 
 .item-description .btn:hover {
@@ -1429,6 +1430,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .item-description .btn:active {
 	background-color: #d7373b;
+    box-shadow: 0 0 5px black;
 }
 
 .catalog-pages {
@@ -1440,7 +1442,6 @@ input[type="checkbox"]:disabled + label::before {
 
 .catalog-pages .btn {
 	display: inline-block;
-    vertical-align: baseline;
 	width: 50px;
 	height: 50px;
 	margin-right: 11px;
@@ -1654,10 +1655,10 @@ input[type="checkbox"]:disabled + label::before {
 	top: 50%;
 	left: 50%;
 	
-	width: 24px;
+	width: 26px;
 	height: 4px;
-	margin-top: -2px;
-	margin-left: -12px;
+	top: 11px;
+	left: 0px;
 	
 	background-color: #e74246;
 }
