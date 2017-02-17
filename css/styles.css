@@ -818,7 +818,7 @@ footer img{
 	margin-right: 0;
 	padding: 16px 0;
 
-    border-radius: 4px;
+    border-radius: 3px;
 	text-transform: uppercase;
 	color: #ffffff;
 	text-align: center;
@@ -1205,12 +1205,14 @@ input[type="checkbox"]:disabled + label::before {
 
 .catalog-top {
 	margin-bottom: 48px;
-	padding-top: 2px;
+	padding-top: 4px;
 
 	font-size: 0;
 }
 
 .catalog-top .title {
+    float:left;
+    width: 160px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 18px;
@@ -1221,7 +1223,6 @@ input[type="checkbox"]:disabled + label::before {
 .catalog-top .right {
 	float: right;
 	width: 360px;
-	
 	text-align: right;
 }
 
@@ -1356,6 +1357,8 @@ input[type="checkbox"]:disabled + label::before {
 	width: 360px;
 	height: 576px;
 	box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    border-top:0;
 
 }
 
