@@ -25,7 +25,6 @@ footer img{
 		opacity: 0;
 		
 		-webkit-transform: translateY(100px);
-		    -ms-transform: translateY(100px);
 		        transform: translateY(100px);
 	}
 	
@@ -33,7 +32,6 @@ footer img{
 		opacity: 1;
 		
 		-webkit-transform: translateY(0);
-		    -ms-transform: translateY(0);
 		        transform: translateY(0);
 	}
 }
@@ -43,7 +41,6 @@ footer img{
 		opacity: 0;
 		
 		-webkit-transform: translateY(100px);
-		    -ms-transform: translateY(100px);
 		        transform: translateY(100px);
 	}
 	
@@ -51,7 +48,6 @@ footer img{
 		opacity: 1;
 		
 		-webkit-transform: translateY(0);
-		    -ms-transform: translateY(0);
 		        transform: translateY(0);
 	}
 }
@@ -59,19 +55,16 @@ footer img{
 @-webkit-keyframes shake {
 	0%, 100% {
 		-webkit-transform: translateX(0);
-		    -ms-transform: translateX(0);
 		        transform: translateX(0);
 	}
 	
 	10%, 50%, 90% {
 		-webkit-transform: translateX(-10px);
-		    -ms-transform: translateX(-10px);
 		        transform: translateX(-10px);
 	}
 	
 	30%, 70% {
 		-webkit-transform: translateX(10px);
-		    -ms-transform: translateX(10px);
 		        transform: translateX(10px);
 	}
 }
@@ -79,19 +72,16 @@ footer img{
 @keyframes shake {
 	0%, 100% {
 		-webkit-transform: translateX(0);
-		    -ms-transform: translateX(0);
 		        transform: translateX(0);
 	}
 	
 	10%, 50%, 90% {
 		-webkit-transform: translateX(-10px);
-		    -ms-transform: translateX(-10px);
 		        transform: translateX(-10px);
 	}
 	
 	30%, 70% {
 		-webkit-transform: translateX(10px);
-		    -ms-transform: translateX(10px);
 		        transform: translateX(10px);
 	}
 }
@@ -1281,7 +1271,6 @@ input[type="checkbox"]:disabled + label::before {
 	border-color: #000000 transparent transparent transparent;
 	
 	-webkit-transform: rotate(360deg);
-	    -ms-transform: rotate(360deg);
 	        transform: rotate(360deg);
 }
 
@@ -1293,7 +1282,6 @@ input[type="checkbox"]:disabled + label::before {
 	border-color: transparent transparent #000000 transparent;
 	
 	-webkit-transform: rotate(360deg);
-	    -ms-transform: rotate(360deg);
 	        transform: rotate(360deg);
 }
 
@@ -1376,6 +1364,7 @@ input[type="checkbox"]:disabled + label::before {
 	    word-break: break-all;
 	
 	background-color: #eeeeee;
+    
 }
 
 .catalog-item:hover .item-description {
@@ -1403,13 +1392,14 @@ input[type="checkbox"]:disabled + label::before {
 }
 
 .catalog-item .description {
-	margin-top: 0;
-	margin-bottom: 30px;
-	
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 18px;
-	color: #666666;
+display: block;
+    width: 220px;
+    margin: 0 auto;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 32px;
 }
 
 .item-description .btn {
@@ -1672,13 +1662,11 @@ input[type="checkbox"]:disabled + label::before {
 
 .cross::before {
 	-webkit-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
 	        transform: rotate(45deg);
 }
 
 .cross::after {
 	-webkit-transform: rotate(135deg);
-	    -ms-transform: rotate(135deg);
 	        transform: rotate(135deg);
 }
 
@@ -1693,4 +1681,12 @@ input[type="checkbox"]:disabled + label::before {
 	height: 100%;
 	
 	background-color: transparent;
+}
+.adress {
+    display: block;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 210px;
 }
