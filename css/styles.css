@@ -1140,7 +1140,7 @@ input[type="checkbox"]:disabled + label::before {
     vertical-align: baseline;
 	width: 80px;
 	height: 37px;
-	margin-right: 32px;
+	margin-right: 35px;
 	
 	font-weight: 400;
 	font-size: 16px;
@@ -1222,7 +1222,7 @@ input[type="checkbox"]:disabled + label::before {
 
 .catalog-top .right {
 	float: right;
-	width: 360px;
+	width: 400px;
 	text-align: right;
 }
 
