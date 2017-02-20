@@ -5,7 +5,7 @@
 		<title>Nerds</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 		<link href="css/normalize.min.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/styles.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="main-header">
@@ -41,23 +41,20 @@
 			<div class="container clearfix">
 				<aside class="characteristics">
 					<form action="#" method="get">
-                        <fieldset>
-                            <legend class="title-cost">Стоимость:</legend>
-                                <div class="range-control">
-                                    <div class="scale">
-                                        <div class="bar">
-                                        </div>
-                                    </div>
-                                    <div class="toggle min-toggle">
-                                    </div>
-                                    <div class="toggle max-toggle">
-                                    </div>
-                                </div>
-                                <div class="price-range">
-                                    <label class="min-price" for="min-price">от </label><input type="text" name="min-price" id="min-price" value="0">
-                                    <label class="max-price" for="max-price">до </label><input type="text" name="max-price" id="max-price" value="15 000">
-                                </div>
-                            </fieldset>
+						<fieldset class="cost">
+							<legend class="title">Стоимость:</legend>
+							<div class="slider">
+								<div class="main-line">
+									<div class="current-line"></div>
+								</div>
+								<span class="mark start-mark"></span>
+								<span class="mark finish-mark"></span>
+							</div>
+							<label for="start-value">от</label>
+							<input id="start-value" type="text" name="start-value" value="0" readonly>
+							<label for="finish-value">до</label>
+							<input id="finish-value" type="text" name="finish-value" value="15 000" readonly>
+						</fieldset>
 						<fieldset class="grid">
 							<legend class="title">Сетка:</legend>
 							<ul>
