@@ -943,7 +943,6 @@ footer img{
 
 .characteristics fieldset {
 	margin: 0;
-	margin-bottom: 52px;
 	padding: 0;
 
 	border: none;
@@ -1631,8 +1630,8 @@ footer img{
 }
 .range-filter {
     width: 260px;
-    margin-top: 48px; 
-    margin-bottom: 60px;
+    margin-top: 35px;
+    margin-bottom: 55px
     
 }
 
